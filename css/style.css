@@ -1,0 +1,91 @@
+body {
+	font-family: verdana, arial, sans-serif;
+	font-size: 80%;
+	background: #DADEE0;
+	color: #4E4E4E;
+}
+
+body a {
+	text-decoration: none;
+}
+
+input, textarea {
+	font-family: verdana, arial, sans-serif;
+	color: #4E4E4E;
+}
+
+#menu {
+	float: left;
+}
+
+#msg, #result, #msgOptions{
+	color:red;
+}
+
+.menuitem {
+	border: 1px solid #999;
+	padding: 3px 15px;
+	width: 150px;
+	cursor: default;
+}
+
+.menuitem.selected{
+	background-color: #015776;
+	color: #fff;
+}
+
+.contentitem{
+	float: left;
+	padding:3px 10px 10px 20px;
+	border-left: 1px dashed #ccc;
+	line-height: 40px;
+	width:550px;
+	border: 1px solid #999;
+	margin-left: 15px;
+}
+
+.label {
+	float: left;
+	width: 140px;
+}
+
+.value{
+	float: left;
+	width: 250px;
+}
+
+.popuplabel {
+	float: left;
+	width: 140px;
+}
+
+.popupvalue{
+	float: left;
+	width: 150px;
+}
+
+.break{
+	clear:both;
+}
+
+.contentitem.selected {
+	display:block;
+}
+
+.contentitem {
+	display:none;
+}
+
+.footnote {
+	font-size: 10px;
+	display:block;
+	padding-left: 0px;
+	line-height: 12px;
+}
+
+.description {
+	font-size:12px; 
+	line-height:20px; 
+	padding-bottom:15px;
+}
+

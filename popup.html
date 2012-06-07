@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+	<head>
+		<title>SMS to Phone Extension - by Hoiio</title>
+		<style>
+			body {
+				min-width:500px;
+				overflow-x:hidden;
+			}
+		</style>
+		
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+		<script type="text/javascript" src="popup.js"></script>
+	</head>
+	<body>
+		<div id ="main" style="display:none;">
+			<h3>Share this URL to your friend</h3>
+			<div style="line-height: 40px;">
+				<div class="popuplabel">Phone Number(s)</div>
+				<div class="popupvalue"><input type="textbox" name="mobile_number" id="mobile_number"/></div>
+				<br class="break"/>
+				<div class="popuplabel">Message</div>
+				<div class="popupvalue"><textarea name="message" rows="8" cols="45" id="message"/></textarea></div>
+				<br class="break"/>
+				<input type="button" name="Send" value="Share"/>
+				<span id="result"></span>
+			</div>
+		</div>
+		<div id="nocredentials" style="display:none;">
+			<div style="margin:10px 15px; display:block">
+				<h3>SMS to Phone</h3>
+				To send an SMS to phone, please <a href="options.html" target="_blank">configure</a> the settings first.
+			</div> 
+		</div>
+	</body>
+</html>

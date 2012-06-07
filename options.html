@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+	<head>
+		<title>SMS to Phone Extension - by Hoiio</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<script type="text/javascript" src="options.js"></script>
+		<script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+		
+	</head>
+
+	<body>
+		<h1>SMS to Phone</h1>
+		<div id="menu">
+			<div id="accountsettings" class="menuitem selected">
+				Account Settings
+			</div>
+			<div id="advance" class="menuitem">
+				Advanced Options
+			</div>
+		</div>
+		<div id="content">
+			<div id="accountsettings-content" class="contentitem selected" style="padding-left:30px">
+				<h3>Enter your Hoiio's credentials</h3> 
+				<div class="description">
+					The SMS service is provided by Hoiio. You need to register a <a href="https://secure.hoiio.com/dev/Dev.html?#registrationEnterNumber" target="_blank">Hoiio developer account</a>, get your App ID and Access Token from Hoiio, then enter the required credentials below.<br/>
+				</div>
+				<div class="label" style="padding-left:0px">
+					App ID
+				</div>
+				<div class="value">
+					<input type="textbox" id="app_id" style="width:250px"/>
+				</div>	
+				<br class="break"/>
+				<div class="label" style="padding-left:0px">
+					Access Token
+				</div>
+				<div class="value">
+					<input type="textbox" id="access_token" style="width:250px" />
+				</div>
+				<br class="break"/>
+				<input type="button" id="clear" value="Clear" style="margin-left:0px"/>
+				<input type="submit" id="submit" value="Save"/>
+				<span id="msg"></span>
+			</div>
+			<div id="advance-content" class="contentitem" style="padding-left:30px">
+				<h3>Update the default information</h3>
+				<div class="description">
+					You can configure the default phone number(s) and message below.
+				</div>
+				<div class="label">
+					Phone Number(s)
+				</div>
+				<div class="value">
+					<input type="textbox" id="mobile_number" style="width:250px"/> 
+					<div class="footnote" style="width: 300px; padding-bottom: 15px">
+						Phone numbers must be in <b>full international format</b> (includes country &amp; area code). Example: +16501234567
+					</div>
+				</div>	
+				<br class="break"/>
+				<div class="label">
+					Message
+				</div>
+				<div class="value">
+					<textarea name="message" rows="8" cols="40" id="message"></textarea>
+				</div>
+				<br class="break"/>
+				<input type="button" id="clear2" value="Clear"/>
+				<input type="submit" id="save2" value="Save"/>
+				<span id="msgOptions"></span>
+			</div>
+		</div>
+	</body>
+</html>
