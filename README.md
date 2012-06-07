@@ -3,11 +3,11 @@ This is the Chrome plugin to share the URL you are viewing to your friends throu
 
 
 # Installing
-Download the extension
-Open "Manage Extension" in Chrome
-Enable developer mode by checking the "Developer Mode"
-Choose "Load unpacked extension"
-Choose the extension you just downloaded and load it
+* Download the extension
+* Open "Manage Extension" in Chrome
+* Enable developer mode by checking the "Developer Mode"
+* Choose "Load unpacked extension"
+* Choose the extension you just downloaded and load it
 
 
 # Usage
